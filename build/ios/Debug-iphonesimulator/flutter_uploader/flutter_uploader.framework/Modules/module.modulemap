@@ -1,0 +1,11 @@
+framework module flutter_uploader {
+  umbrella header "flutter_uploader-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module flutter_uploader.Swift {
+  header "flutter_uploader-Swift.h"
+  requires objc
+}

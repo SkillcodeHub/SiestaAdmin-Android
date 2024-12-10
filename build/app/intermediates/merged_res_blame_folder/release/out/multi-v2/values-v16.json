@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.siestaadmin.dot2dot.app-mergeReleaseResources-49:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/dweeppatel/.gradle/caches/transforms-3/2835048a7f008170346e8303585c98c0/transformed/core-1.10.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/dweeppatel/.gradle/caches/transforms-3/5691f3e74026b1d222f61ddbe3ffe015/transformed/appcompat-1.4.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

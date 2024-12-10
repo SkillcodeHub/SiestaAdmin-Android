@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">1085736361811</string>
+    <string name="google_api_key" translatable="false">AIzaSyCHIFXmnoFfDW-6xxdV9KOSAcMoATrd8UA</string>
+    <string name="google_app_id" translatable="false">1:1085736361811:android:7702e4b26367707083cba6</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCHIFXmnoFfDW-6xxdV9KOSAcMoATrd8UA</string>
+    <string name="google_storage_bucket" translatable="false">siestaadmin.firebasestorage.app</string>
+    <string name="project_id" translatable="false">siestaadmin</string>
+</resources>

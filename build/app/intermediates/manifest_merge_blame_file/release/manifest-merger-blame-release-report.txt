@@ -1,0 +1,1011 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.siestaadmin.dot2dot"
+4    android:versionCode="4"
+5    android:versionName="1.0.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="34" />
+9-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:7:22-78
+14    <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/> -->
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:9:5-65
+15-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:10:5-71
+16-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:10:22-68
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:11:5-79
+17-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:11:22-76
+18    <uses-permission android:name="android.permission.READ_CONTACTS" />
+18-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:12:5-72
+18-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:12:22-69
+19    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+19-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:13:5-80
+19-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:13:22-77
+20    <uses-permission android:name="android.permission.VIDEO_CAPTURE" />
+20-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:14:5-72
+20-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:14:22-69
+21    <uses-permission android:name="android.permission.AUDIO_CAPTURE" />
+21-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:15:5-72
+21-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:15:22-69
+22    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+22-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:16:5-78
+22-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:16:22-76
+23
+24    <!-- Permissions options for the `access notification policy` group -->
+25    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+25-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:19:5-84
+25-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:19:22-82
+26
+27    <!-- Permissions options for the `notification` group -->
+28    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+28-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:22:5-76
+28-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:22:22-74
+29
+30    <uses-feature
+30-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:24:5-26:36
+31        android:name="android.hardware.camera"
+31-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:25:9-47
+32        android:required="false" />
+32-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:26:9-33
+33    <uses-feature
+33-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:27:5-29:36
+34        android:name="android.hardware.location.gps"
+34-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:28:9-53
+35        android:required="false" />
+35-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:29:9-33
+36
+37    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+37-->[:nb_utils] /Users/dweeppatel/Documents/Siesta-android/build/nb_utils/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-79
+37-->[:nb_utils] /Users/dweeppatel/Documents/Siesta-android/build/nb_utils/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-76
+38    <uses-permission android:name="android.permission.WAKE_LOCK" />
+38-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+38-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-65
+39    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+39-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-81
+39-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-78
+40    <uses-permission android:name="android.permission.VIBRATE" />
+40-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-66
+40-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-63
+41    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+41-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+41-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+42    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+42-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+42-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+43
+44    <queries>
+44-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:15
+45        <intent>
+45-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:18
+46            <action android:name="android.intent.action.GET_CONTENT" />
+46-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-72
+46-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-69
+47
+48            <data android:mimeType="*/*" />
+48-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-44
+48-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:19-41
+49        </intent>
+50        <intent>
+50-->[com.github.droibit:customtabslauncher:1.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/b350fc81be354b69207d149561e50b80/transformed/jetified-customtabslauncher-1.6.0/AndroidManifest.xml:10:9-12:18
+51            <action android:name="android.support.customtabs.action.CustomTabsService" />
+51-->[com.github.droibit:customtabslauncher:1.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/b350fc81be354b69207d149561e50b80/transformed/jetified-customtabslauncher-1.6.0/AndroidManifest.xml:11:13-90
+51-->[com.github.droibit:customtabslauncher:1.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/b350fc81be354b69207d149561e50b80/transformed/jetified-customtabslauncher-1.6.0/AndroidManifest.xml:11:21-87
+52        </intent>
+53        <intent>
+53-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:11:9-17:18
+54            <action android:name="android.intent.action.VIEW" />
+54-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:13-65
+54-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:21-62
+55
+56            <data
+56-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-44
+57                android:mimeType="*/*"
+57-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:19-41
+58                android:scheme="*" />
+59        </intent>
+60        <intent>
+60-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:18:9-27:18
+61            <action android:name="android.intent.action.VIEW" />
+61-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:13-65
+61-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:21-62
+62
+63            <category android:name="android.intent.category.BROWSABLE" />
+63-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:21:13-74
+63-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:21:23-71
+64
+65            <data
+65-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-44
+66                android:host="pay"
+67                android:mimeType="*/*"
+67-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:19-41
+68                android:scheme="upi" />
+69        </intent>
+70        <intent>
+70-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:28:9-30:18
+71            <action android:name="android.intent.action.MAIN" />
+71-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:17-68
+71-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:25-66
+72        </intent>
+73        <intent>
+73-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:31:9-35:18
+74            <action android:name="android.intent.action.SEND" />
+74-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:32:13-65
+74-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:32:21-62
+75
+76            <data android:mimeType="*/*" />
+76-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-44
+76-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:19-41
+77        </intent>
+78        <intent>
+78-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:36:9-38:18
+79            <action android:name="rzp.device_token.share" />
+79-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:13-61
+79-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:21-58
+80        </intent>
+81    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+82    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+82-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:5-82
+82-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:26:22-79
+83    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+83-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:26:5-88
+83-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:26:22-85
+84    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+84-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:27:5-82
+84-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:27:22-79
+85
+86    <uses-feature
+86-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+87        android:glEsVersion="0x00020000"
+87-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+88        android:required="true" />
+88-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+89
+90    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+90-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:5-110
+90-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:26:22-107
+91    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+91-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+91-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+92
+93    <permission
+93-->[androidx.core:core:1.10.1] /Users/dweeppatel/.gradle/caches/transforms-3/2835048a7f008170346e8303585c98c0/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+94        android:name="com.siestaadmin.dot2dot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+94-->[androidx.core:core:1.10.1] /Users/dweeppatel/.gradle/caches/transforms-3/2835048a7f008170346e8303585c98c0/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+95        android:protectionLevel="signature" />
+95-->[androidx.core:core:1.10.1] /Users/dweeppatel/.gradle/caches/transforms-3/2835048a7f008170346e8303585c98c0/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+96
+97    <uses-permission android:name="com.siestaadmin.dot2dot.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+97-->[androidx.core:core:1.10.1] /Users/dweeppatel/.gradle/caches/transforms-3/2835048a7f008170346e8303585c98c0/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+97-->[androidx.core:core:1.10.1] /Users/dweeppatel/.gradle/caches/transforms-3/2835048a7f008170346e8303585c98c0/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+98
+99    <application
+100        android:name="android.app.Application"
+100-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:33:9-42
+101        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+101-->[androidx.core:core:1.10.1] /Users/dweeppatel/.gradle/caches/transforms-3/2835048a7f008170346e8303585c98c0/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+102        android:extractNativeLibs="false"
+103        android:icon="@mipmap/ic_launcher"
+103-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:34:9-43
+104        android:label="Siesta Admin"
+104-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:32:9-37
+105        android:requestLegacyExternalStorage="true"
+105-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:31:9-52
+106        android:usesCleartextTraffic="true" >
+106-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:35:9-44
+107        <activity
+107-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:36:9-57:20
+108            android:name="com.siestaadmin.dot2dot.MainActivity"
+108-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:37:13-41
+109            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+109-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:42:13-163
+110            android:exported="true"
+110-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:38:13-36
+111            android:hardwareAccelerated="true"
+111-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:43:13-47
+112            android:launchMode="singleTop"
+112-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:40:13-43
+113            android:screenOrientation="portrait"
+113-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:39:13-49
+114            android:theme="@style/LaunchTheme"
+114-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:41:13-47
+115            android:windowSoftInputMode="adjustResize" >
+115-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:44:13-55
+116
+117            <!--
+118                 Specifies an Android theme to apply to this Activity as soon as
+119                 the Android process has started. This theme is visible to the user
+120                 while the Flutter UI initializes. After that, this theme continues
+121                 to determine the Window background behind the Flutter UI.
+122            -->
+123            <meta-data
+123-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:49:13-52:17
+124                android:name="io.flutter.embedding.android.NormalTheme"
+124-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:50:15-70
+125                android:resource="@style/NormalTheme" />
+125-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:51:15-52
+126
+127            <intent-filter>
+127-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:53:13-56:29
+128                <action android:name="android.intent.action.MAIN" />
+128-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:17-68
+128-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:25-66
+129
+130                <category android:name="android.intent.category.LAUNCHER" />
+130-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:55:17-76
+130-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:55:27-74
+131            </intent-filter>
+132        </activity>
+133        <!--
+134             Don't delete the meta-data below.
+135             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+136        -->
+137        <meta-data
+137-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:60:9-62:33
+138            android:name="flutterEmbedding"
+138-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:61:13-44
+139            android:value="2" />
+139-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:62:13-30
+140
+141        <service
+141-->[:firebase_database] /Users/dweeppatel/Documents/Siesta-android/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+142            android:name="com.google.firebase.components.ComponentDiscoveryService"
+142-->[:firebase_database] /Users/dweeppatel/Documents/Siesta-android/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-89
+143            android:directBootAware="true"
+143-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+144            android:exported="false" >
+144-->[com.google.firebase:firebase-crashlytics:18.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/c6fcb6560c23b20279a177856bdaf1de/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:14:13-37
+145            <meta-data
+145-->[:firebase_database] /Users/dweeppatel/Documents/Siesta-android/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+146                android:name="com.google.firebase.components:io.flutter.plugins.firebase.database.FlutterFirebaseAppRegistrar"
+146-->[:firebase_database] /Users/dweeppatel/Documents/Siesta-android/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-127
+147                android:value="com.google.firebase.components.ComponentRegistrar" />
+147-->[:firebase_database] /Users/dweeppatel/Documents/Siesta-android/build/firebase_database/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+148            <meta-data
+148-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-38:85
+149                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+149-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:17-128
+150                android:value="com.google.firebase.components.ComponentRegistrar" />
+150-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:17-82
+151            <meta-data
+151-->[:firebase_crashlytics] /Users/dweeppatel/Documents/Siesta-android/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+152                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+152-->[:firebase_crashlytics] /Users/dweeppatel/Documents/Siesta-android/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-130
+153                android:value="com.google.firebase.components.ComponentRegistrar" />
+153-->[:firebase_crashlytics] /Users/dweeppatel/Documents/Siesta-android/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+154            <meta-data
+154-->[:firebase_analytics] /Users/dweeppatel/Documents/Siesta-android/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:85
+155                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+155-->[:firebase_analytics] /Users/dweeppatel/Documents/Siesta-android/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-128
+156                android:value="com.google.firebase.components.ComponentRegistrar" />
+156-->[:firebase_analytics] /Users/dweeppatel/Documents/Siesta-android/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-82
+157            <meta-data
+157-->[:firebase_core] /Users/dweeppatel/Documents/Siesta-android/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+158                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+158-->[:firebase_core] /Users/dweeppatel/Documents/Siesta-android/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+159                android:value="com.google.firebase.components.ComponentRegistrar" />
+159-->[:firebase_core] /Users/dweeppatel/Documents/Siesta-android/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+160            <meta-data
+160-->[com.google.firebase:firebase-crashlytics:18.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/c6fcb6560c23b20279a177856bdaf1de/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:15:13-17:85
+161                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+161-->[com.google.firebase:firebase-crashlytics:18.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/c6fcb6560c23b20279a177856bdaf1de/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:16:17-126
+162                android:value="com.google.firebase.components.ComponentRegistrar" />
+162-->[com.google.firebase:firebase-crashlytics:18.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/c6fcb6560c23b20279a177856bdaf1de/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:17:17-82
+163            <meta-data
+163-->[com.google.firebase:firebase-crashlytics:18.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/c6fcb6560c23b20279a177856bdaf1de/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:18:13-20:85
+164                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+164-->[com.google.firebase:firebase-crashlytics:18.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/c6fcb6560c23b20279a177856bdaf1de/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:19:17-115
+165                android:value="com.google.firebase.components.ComponentRegistrar" />
+165-->[com.google.firebase:firebase-crashlytics:18.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/c6fcb6560c23b20279a177856bdaf1de/transformed/jetified-firebase-crashlytics-18.6.0/AndroidManifest.xml:20:17-82
+166            <meta-data
+166-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:57:13-59:85
+167                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+167-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:58:17-122
+168                android:value="com.google.firebase.components.ComponentRegistrar" />
+168-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:59:17-82
+169            <meta-data
+169-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:60:13-62:85
+170                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+170-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:61:17-119
+171                android:value="com.google.firebase.components.ComponentRegistrar" />
+171-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:62:17-82
+172            <meta-data
+172-->[com.google.firebase:firebase-database:20.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/2fc269d7568cfbdd908ba3744c168a42/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:29:13-31:85
+173                android:name="com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar"
+173-->[com.google.firebase:firebase-database:20.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/2fc269d7568cfbdd908ba3744c168a42/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:30:17-120
+174                android:value="com.google.firebase.components.ComponentRegistrar" />
+174-->[com.google.firebase:firebase-database:20.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/2fc269d7568cfbdd908ba3744c168a42/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:31:17-82
+175            <meta-data
+175-->[com.google.firebase:firebase-database:20.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/2fc269d7568cfbdd908ba3744c168a42/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:32:13-34:85
+176                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+176-->[com.google.firebase:firebase-database:20.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/2fc269d7568cfbdd908ba3744c168a42/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:33:17-109
+177                android:value="com.google.firebase.components.ComponentRegistrar" />
+177-->[com.google.firebase:firebase-database:20.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/2fc269d7568cfbdd908ba3744c168a42/transformed/jetified-firebase-database-20.3.0/AndroidManifest.xml:34:17-82
+178            <meta-data
+178-->[com.google.firebase:firebase-iid:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/0df4f2a49e00893bde95fddc9fc31294/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+179                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+179-->[com.google.firebase:firebase-iid:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/0df4f2a49e00893bde95fddc9fc31294/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+180                android:value="com.google.firebase.components.ComponentRegistrar" />
+180-->[com.google.firebase:firebase-iid:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/0df4f2a49e00893bde95fddc9fc31294/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+181            <meta-data
+181-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:37:13-39:85
+182                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+182-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:38:17-139
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:39:17-82
+184            <meta-data
+184-->[com.google.firebase:firebase-sessions:1.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5ac966abbfff5bd3759aba9ab65572d5/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:29:13-31:85
+185                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+185-->[com.google.firebase:firebase-sessions:1.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5ac966abbfff5bd3759aba9ab65572d5/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:30:17-117
+186                android:value="com.google.firebase.components.ComponentRegistrar" />
+186-->[com.google.firebase:firebase-sessions:1.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5ac966abbfff5bd3759aba9ab65572d5/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:31:17-82
+187            <meta-data
+187-->[com.google.firebase:firebase-installations:17.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5b1168544095d2d89bd0e7c723d6616a/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+188                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+188-->[com.google.firebase:firebase-installations:17.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5b1168544095d2d89bd0e7c723d6616a/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[com.google.firebase:firebase-installations:17.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5b1168544095d2d89bd0e7c723d6616a/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+190            <meta-data
+190-->[com.google.firebase:firebase-installations:17.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5b1168544095d2d89bd0e7c723d6616a/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+191                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+191-->[com.google.firebase:firebase-installations:17.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5b1168544095d2d89bd0e7c723d6616a/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[com.google.firebase:firebase-installations:17.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5b1168544095d2d89bd0e7c723d6616a/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/5e00647ff30ea79a3246a65230992e6e/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+194                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+194-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/5e00647ff30ea79a3246a65230992e6e/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/5e00647ff30ea79a3246a65230992e6e/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/dweeppatel/.gradle/caches/transforms-3/579d04947caed99bb8ee1cc7ddcb1e91/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:27:13-29:85
+197                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+197-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/dweeppatel/.gradle/caches/transforms-3/579d04947caed99bb8ee1cc7ddcb1e91/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:28:17-115
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-datatransport:18.1.8] /Users/dweeppatel/.gradle/caches/transforms-3/579d04947caed99bb8ee1cc7ddcb1e91/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:29:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+200                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+200-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+202        </service>
+203        <service
+203-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-17:72
+204            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+204-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-107
+205            android:exported="false"
+205-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+206            android:permission="android.permission.BIND_JOB_SERVICE" />
+206-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-69
+207        <service
+207-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-24:19
+208            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+208-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-97
+209            android:exported="false" >
+209-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-37
+210            <intent-filter>
+210-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:29
+211                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+211-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-78
+211-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-75
+212            </intent-filter>
+213        </service>
+214
+215        <receiver
+215-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:26:9-33:20
+216            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+216-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-98
+217            android:exported="true"
+217-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-36
+218            android:permission="com.google.android.c2dm.permission.SEND" >
+218-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-73
+219            <intent-filter>
+219-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+220                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+220-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+220-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+221            </intent-filter>
+222        </receiver>
+223
+224        <provider
+224-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:41:9-45:38
+225            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+225-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-102
+226            android:authorities="com.siestaadmin.dot2dot.flutterfirebasemessaginginitprovider"
+226-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-88
+227            android:exported="false"
+227-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-37
+228            android:initOrder="99" />
+228-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-35
+229
+230        <receiver
+230-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-16:40
+231            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+231-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-91
+232            android:exported="false" />
+232-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-37
+233        <receiver
+233-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-19:40
+234            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+234-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-97
+235            android:exported="false" />
+235-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-37
+236        <receiver
+236-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-29:20
+237            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+237-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-101
+238            android:exported="false" >
+238-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+239            <intent-filter>
+239-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-28:29
+240                <action android:name="android.intent.action.BOOT_COMPLETED" />
+240-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-79
+240-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-76
+241                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+241-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-84
+241-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:25:25-81
+242                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+242-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:17-82
+242-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:26:25-79
+243                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+243-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:17-82
+243-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:27:25-79
+244            </intent-filter>
+245        </receiver>
+246
+247        <provider
+247-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+248            android:name="io.flutter.plugins.share.ShareFileProvider"
+248-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-70
+249            android:authorities="com.siestaadmin.dot2dot.flutter.share_provider"
+249-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+250            android:exported="false"
+250-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+251            android:grantUriPermissions="true" >
+251-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+252            <meta-data
+252-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:68
+253                android:name="android.support.FILE_PROVIDER_PATHS"
+253-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+254                android:resource="@xml/flutter_share_file_paths" />
+254-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-65
+255        </provider>
+256        <provider
+256-->[:image_picker_android] /Users/dweeppatel/Documents/Siesta-android/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-16:20
+257            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+257-->[:image_picker_android] /Users/dweeppatel/Documents/Siesta-android/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-82
+258            android:authorities="com.siestaadmin.dot2dot.flutter.image_provider"
+258-->[:image_picker_android] /Users/dweeppatel/Documents/Siesta-android/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-74
+259            android:exported="false"
+259-->[:image_picker_android] /Users/dweeppatel/Documents/Siesta-android/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-37
+260            android:grantUriPermissions="true" >
+260-->[:image_picker_android] /Users/dweeppatel/Documents/Siesta-android/build/image_picker_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-47
+261            <meta-data
+261-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:68
+262                android:name="android.support.FILE_PROVIDER_PATHS"
+262-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-67
+263                android:resource="@xml/flutter_image_picker_file_paths" />
+263-->[:share] /Users/dweeppatel/Documents/Siesta-android/build/share/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-65
+264        </provider>
+265
+266        <activity
+266-->[:url_launcher_android] /Users/dweeppatel/Documents/Siesta-android/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-11:74
+267            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+267-->[:url_launcher_android] /Users/dweeppatel/Documents/Siesta-android/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-74
+268            android:exported="false"
+268-->[:url_launcher_android] /Users/dweeppatel/Documents/Siesta-android/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:13-37
+269            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+269-->[:url_launcher_android] /Users/dweeppatel/Documents/Siesta-android/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-71
+270
+271        <receiver
+271-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:29:9-40:20
+272            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+272-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:30:13-78
+273            android:exported="true"
+273-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:31:13-36
+274            android:permission="com.google.android.c2dm.permission.SEND" >
+274-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:32:13-73
+275            <intent-filter>
+275-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-32:29
+276                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+276-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:17-81
+276-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:25-78
+277            </intent-filter>
+278
+279            <meta-data
+279-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:37:13-39:40
+280                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+280-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:38:17-92
+281                android:value="true" />
+281-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:39:17-37
+282        </receiver>
+283        <!--
+284             FirebaseMessagingService performs security checks at runtime,
+285             but set to not exported to explicitly avoid allowing another app to call it.
+286        -->
+287        <service
+287-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:46:9-53:19
+288            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+288-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:47:13-82
+289            android:directBootAware="true"
+289-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:48:13-43
+290            android:exported="false" >
+290-->[com.google.firebase:firebase-messaging:23.3.1] /Users/dweeppatel/.gradle/caches/transforms-3/3d4903cb40eeb3220941edd5a36aa676/transformed/jetified-firebase-messaging-23.3.1/AndroidManifest.xml:49:13-37
+291            <intent-filter android:priority="-500" >
+291-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-23:29
+292                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+292-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-78
+292-->[:firebase_messaging] /Users/dweeppatel/Documents/Siesta-android/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-75
+293            </intent-filter>
+294        </service>
+295
+296        <property
+296-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:30:9-32:61
+297            android:name="android.adservices.AD_SERVICES_CONFIG"
+297-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:31:13-65
+298            android:resource="@xml/ga_ad_services_config" />
+298-->[com.google.android.gms:play-services-measurement-api:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/5da4733372aadafee4f0266f86b8f9f6/transformed/jetified-play-services-measurement-api-21.5.0/AndroidManifest.xml:32:13-58
+299
+300        <service
+300-->[com.google.firebase:firebase-sessions:1.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5ac966abbfff5bd3759aba9ab65572d5/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:22:9-25:40
+301            android:name="com.google.firebase.sessions.SessionLifecycleService"
+301-->[com.google.firebase:firebase-sessions:1.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5ac966abbfff5bd3759aba9ab65572d5/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:23:13-80
+302            android:enabled="true"
+302-->[com.google.firebase:firebase-sessions:1.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5ac966abbfff5bd3759aba9ab65572d5/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:24:13-35
+303            android:exported="false" />
+303-->[com.google.firebase:firebase-sessions:1.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5ac966abbfff5bd3759aba9ab65572d5/transformed/jetified-firebase-sessions-1.2.0/AndroidManifest.xml:25:13-37
+304        <service
+304-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:28:9-34:19
+305            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+305-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:29:13-103
+306            android:exported="false" >
+306-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:30:13-37
+307            <meta-data
+307-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:31:13-33:39
+308                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+308-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
+309                android:value="cct" />
+309-->[com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:33:17-36
+310        </service>
+311
+312        <receiver
+312-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:42:9-49:20
+313            android:name="com.razorpay.RzpTokenReceiver"
+313-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:43:13-57
+314            android:exported="true" >
+314-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:44:13-36
+315            <intent-filter>
+315-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:46:13-48:29
+316                <action android:name="rzp.device_token.share" />
+316-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:13-61
+316-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:21-58
+317            </intent-filter>
+318        </receiver>
+319
+320        <activity
+320-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:51:9-59:20
+321            android:name="com.razorpay.CheckoutActivity"
+321-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:52:13-57
+322            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+322-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:53:13-83
+323            android:exported="false"
+323-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:54:13-37
+324            android:theme="@style/CheckoutTheme" >
+324-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:55:13-49
+325            <intent-filter>
+325-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:56:13-58:29
+326                <action android:name="android.intent.action.MAIN" />
+326-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:17-68
+326-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:25-66
+327            </intent-filter>
+328        </activity>
+329
+330        <meta-data
+330-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:61:9-63:58
+331            android:name="com.razorpay.plugin.googlepay_all"
+331-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:62:13-61
+332            android:value="com.razorpay.RzpGpayMerged" />
+332-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:63:13-55
+333
+334        <activity
+334-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:23:9-27:75
+335            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+335-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:24:13-93
+336            android:excludeFromRecents="true"
+336-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:25:13-46
+337            android:exported="false"
+337-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:26:13-37
+338            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+338-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:27:13-72
+339        <!--
+340            Service handling Google Sign-In user revocation. For apps that do not integrate with
+341            Google Sign-In, this service will never be started.
+342        -->
+343        <service
+343-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:33:9-37:51
+344            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+344-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:34:13-89
+345            android:exported="true"
+345-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:35:13-36
+346            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+346-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:36:13-107
+347            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+347-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:37:13-48
+348        <uses-library
+348-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+349            android:name="org.apache.http.legacy"
+349-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+350            android:required="false" />
+350-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+351
+352        <activity
+352-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+353            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+353-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+354            android:exported="false"
+354-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+355            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+355-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+356
+357        <provider
+357-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+358            android:name="com.google.firebase.provider.FirebaseInitProvider"
+358-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+359            android:authorities="com.siestaadmin.dot2dot.firebaseinitprovider"
+359-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+360            android:directBootAware="true"
+360-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+361            android:exported="false"
+361-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+362            android:initOrder="100" />
+362-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+363
+364        <receiver
+364-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
+365            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+365-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
+366            android:enabled="true"
+366-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
+367            android:exported="false" >
+367-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
+368        </receiver>
+369
+370        <service
+370-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
+371            android:name="com.google.android.gms.measurement.AppMeasurementService"
+371-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
+372            android:enabled="true"
+372-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
+373            android:exported="false" />
+373-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+374        <service
+374-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
+375            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+375-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+376            android:enabled="true"
+376-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
+377            android:exported="false"
+377-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
+378            android:permission="android.permission.BIND_JOB_SERVICE" />
+378-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
+379
+380        <uses-library
+380-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+381            android:name="android.ext.adservices"
+381-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+382            android:required="false" />
+382-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+383
+384        <meta-data
+384-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+385            android:name="com.google.android.gms.version"
+385-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+386            android:value="@integer/google_play_services_version" />
+386-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+387
+388        <provider
+388-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+389            android:name="androidx.startup.InitializationProvider"
+389-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+390            android:authorities="com.siestaadmin.dot2dot.androidx-startup"
+390-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+391            android:exported="false" >
+391-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+392            <meta-data
+392-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+393                android:name="androidx.work.WorkManagerInitializer"
+393-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+394                android:value="androidx.startup" />
+394-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+395            <meta-data
+395-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+396                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+396-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+397                android:value="androidx.startup" />
+397-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+398            <meta-data
+398-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+399                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+399-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+400                android:value="androidx.startup" />
+400-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+401            <meta-data
+401-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+402                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+402-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+403                android:value="androidx.startup" />
+403-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+404        </provider>
+405
+406        <service
+406-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+407            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+407-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+408            android:directBootAware="false"
+408-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+409            android:enabled="@bool/enable_system_alarm_service_default"
+409-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+410            android:exported="false" />
+410-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+411        <service
+411-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+412            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+412-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+413            android:directBootAware="false"
+413-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+414            android:enabled="@bool/enable_system_job_service_default"
+414-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+415            android:exported="true"
+415-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+416            android:permission="android.permission.BIND_JOB_SERVICE" />
+416-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+417        <service
+417-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+418            android:name="androidx.work.impl.foreground.SystemForegroundService"
+418-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+419            android:directBootAware="false"
+419-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+420            android:enabled="@bool/enable_system_foreground_service_default"
+420-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+421            android:exported="false" />
+421-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+422
+423        <receiver
+423-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+424            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+424-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+425            android:directBootAware="false"
+425-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+426            android:enabled="true"
+426-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+427            android:exported="false" />
+427-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+428        <receiver
+428-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+429            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+429-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+430            android:directBootAware="false"
+430-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+431            android:enabled="false"
+431-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+432            android:exported="false" >
+432-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+433            <intent-filter>
+433-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+434                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+434-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+434-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+435                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+435-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+435-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+436            </intent-filter>
+437        </receiver>
+438        <receiver
+438-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+439            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+439-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+440            android:directBootAware="false"
+440-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+441            android:enabled="false"
+441-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+442            android:exported="false" >
+442-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+443            <intent-filter>
+443-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+444                <action android:name="android.intent.action.BATTERY_OKAY" />
+444-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+444-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+445                <action android:name="android.intent.action.BATTERY_LOW" />
+445-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+445-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+446            </intent-filter>
+447        </receiver>
+448        <receiver
+448-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+449            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+449-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+450            android:directBootAware="false"
+450-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+451            android:enabled="false"
+451-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+452            android:exported="false" >
+452-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+453            <intent-filter>
+453-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+454                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+454-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+454-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+455                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+455-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+455-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+456            </intent-filter>
+457        </receiver>
+458        <receiver
+458-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+459            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+459-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+460            android:directBootAware="false"
+460-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+461            android:enabled="false"
+461-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+462            android:exported="false" >
+462-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+463            <intent-filter>
+463-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+464                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+464-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+464-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+465            </intent-filter>
+466        </receiver>
+467        <receiver
+467-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+468            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+468-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+469            android:directBootAware="false"
+469-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+470            android:enabled="false"
+470-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+471            android:exported="false" >
+471-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+472            <intent-filter>
+472-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+473                <action android:name="android.intent.action.BOOT_COMPLETED" />
+473-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-79
+473-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-76
+474                <action android:name="android.intent.action.TIME_SET" />
+474-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+474-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+475                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+475-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+475-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+476            </intent-filter>
+477        </receiver>
+478        <receiver
+478-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+479            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+479-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+480            android:directBootAware="false"
+480-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+481            android:enabled="@bool/enable_system_alarm_service_default"
+481-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+482            android:exported="false" >
+482-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+483            <intent-filter>
+483-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+484                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+484-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+484-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+485            </intent-filter>
+486        </receiver>
+487        <receiver
+487-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+488            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+488-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+489            android:directBootAware="false"
+489-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+490            android:enabled="true"
+490-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+491            android:exported="true"
+491-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+492            android:permission="android.permission.DUMP" >
+492-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+493            <intent-filter>
+493-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+494                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+494-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+494-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+495            </intent-filter>
+496        </receiver>
+497
+498        <uses-library
+498-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+499            android:name="androidx.window.extensions"
+499-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+500            android:required="false" />
+500-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+501        <uses-library
+501-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+502            android:name="androidx.window.sidecar"
+502-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+503            android:required="false" />
+503-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+504
+505        <receiver
+505-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+506            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+506-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+507            android:directBootAware="false"
+507-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+508            android:enabled="true"
+508-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+509            android:exported="true"
+509-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+510            android:permission="android.permission.DUMP" >
+510-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+511            <intent-filter>
+511-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+512                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+512-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+512-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+513            </intent-filter>
+514            <intent-filter>
+514-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+515                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+515-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+515-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+516            </intent-filter>
+517            <intent-filter>
+517-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+518                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+518-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+518-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+519            </intent-filter>
+520            <intent-filter>
+520-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+521                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+521-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+521-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+522            </intent-filter>
+523        </receiver>
+524
+525        <service
+525-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+526            android:name="androidx.room.MultiInstanceInvalidationService"
+526-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+527            android:directBootAware="true"
+527-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+528            android:exported="false" />
+528-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+529        <service
+529-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+530            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+530-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+531            android:exported="false"
+531-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+532            android:permission="android.permission.BIND_JOB_SERVICE" >
+532-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+533        </service>
+534
+535        <receiver
+535-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+536            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+536-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+537            android:exported="false" />
+537-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+538    </application>
+539
+540</manifest>

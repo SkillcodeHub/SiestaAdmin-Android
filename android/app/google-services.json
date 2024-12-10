@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085736361811",
+    "project_id": "siestaadmin",
+    "storage_bucket": "siestaadmin.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085736361811:android:7702e4b26367707083cba6",
+        "android_client_info": {
+          "package_name": "com.siestaadmin.dot2dot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHIFXmnoFfDW-6xxdV9KOSAcMoATrd8UA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

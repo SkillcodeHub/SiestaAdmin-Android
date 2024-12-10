@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.siestaadmin.dot2dot.app-mergeReleaseResources-49:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dweeppatel/.gradle/caches/transforms-3/5691f3e74026b1d222f61ddbe3ffe015/transformed/appcompat-1.4.2/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}
