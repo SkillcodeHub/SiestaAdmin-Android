@@ -1,9 +1,12 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:siestaamsapp/Utils/utils.dart';
 import 'package:siestaamsapp/View_Model/Auth_View_Model/Login_View_Model/login_view_model.dart';
 import 'package:siestaamsapp/constants/string_res.dart';
 import 'package:sizer/sizer.dart';
+
+import '../PlotOwnerRegisterPage/plotOwnerRegisterPage.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -18,9 +21,15 @@ class _LoginScreenState extends State<LoginScreen> {
   bool _btLoginEnable = true;
   String? _mobile;
   final _formKey = GlobalKey<FormState>();
+  final TapGestureRecognizer _tapRecognizer = TapGestureRecognizer();
 
   void initState() {
     super.initState();
+  }
+
+  void dispose() {
+    _tapRecognizer.dispose();
+    super.dispose();
   }
 
   String? validateMobile(String? value) {
@@ -114,25 +123,10 @@ class _LoginScreenState extends State<LoginScreen> {
                                   SizedBox(
                                     height: 12,
                                   ),
-                                  _btLoginEnable
-                                      ? ElevatedButton(
-                                          onPressed: () {
-                                            authViewModel.loginApi(
-                                                mobileStr.text.toString(),
-                                                context);
-                                          },
-                                          style: ElevatedButton.styleFrom(
-                                              foregroundColor:
-                                                  Colors.deepOrangeAccent,
-                                              backgroundColor:
-                                                  Colors.deepOrangeAccent),
-                                          child: Text(
-                                            AppString.get(context).login(),
-                                            style:
-                                                TextStyle(color: Colors.white),
-                                          ),
-                                        )
-                                      : Stack(
+                                  // _btLoginEnable
+
+                                  authViewModel.loading
+                                      ? Stack(
                                           alignment: Alignment.center,
                                           children: <Widget>[
                                             ElevatedButton(
@@ -148,10 +142,55 @@ class _LoginScreenState extends State<LoginScreen> {
                                             ),
                                             CircularProgressIndicator(),
                                           ],
+                                        )
+                                      : ElevatedButton(
+                                          onPressed: () {
+                                            authViewModel.loginApi(
+                                                mobileStr.text.toString(),
+                                                context);
+                                          },
+                                          style: ElevatedButton.styleFrom(
+                                              foregroundColor:
+                                                  Colors.deepOrangeAccent,
+                                              backgroundColor:
+                                                  Colors.deepOrangeAccent),
+                                          child: Text(
+                                            AppString.get(context).login(),
+                                            style:
+                                                TextStyle(color: Colors.white),
+                                          ),
                                         ),
+
                                   SizedBox(
                                     height: 12,
                                   ),
+                                  RichText(
+                                    text: TextSpan(
+                                      style: TextStyle(
+                                          color: Colors
+                                              .black), // Style for the regular text
+                                      children: [
+                                        TextSpan(
+                                            text: 'Register As a Plot Owner? '),
+                                        TextSpan(
+                                          text: 'Click Here',
+                                          style: TextStyle(
+                                            color: Colors.blue,
+                                            decoration:
+                                                TextDecoration.underline,
+                                          ),
+                                          recognizer: TapGestureRecognizer()
+                                            ..onTap = () {
+                                              Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(
+                                                      builder: (context) =>
+                                                          PlotOwnerRegisterScreen()));
+                                            },
+                                        ),
+                                      ],
+                                    ),
+                                  )
                                 ],
                               ),
                             ),

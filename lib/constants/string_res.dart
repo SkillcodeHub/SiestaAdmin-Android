@@ -28,6 +28,8 @@ abstract class AppString {
     }
   }
 
+  String plotOwnerRegistration();
+
   String appHeadingAdmin();
 
   String appSubHeading();
@@ -457,6 +459,10 @@ abstract class AppString {
 
 class _Guj extends AppString {
   @override
+  String plotOwnerRegistration() {
+    return 'સિએસ્ટા પ્લોટ માલિકી નોંધણી';
+  }
+
   String appHeadingAdmin() {
     return 'સિએસ્ટા CMS';
   }
@@ -1531,6 +1537,11 @@ class _Eng extends AppString {
   @override
   String appHeadingMember() {
     return APP_NAME_MEMBER;
+  }
+
+  @override
+  String plotOwnerRegistration() {
+    return 'Siesta Plot Owner Registration';
   }
 
   @override

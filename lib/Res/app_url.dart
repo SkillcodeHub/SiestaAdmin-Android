@@ -6,6 +6,8 @@ class AppUrl {
   // static var baseUrl = "http://10.0.2.2:3000/";
   // static var baseUrl = "http://192.168.1.2:9000/";
   static var baseUrl = "http://app.siestaleisurehomes.com/";
+    // static var baseUrl = "https://5ef3-2405-201-2012-9075-45d9-324-3a99-af4e.ngrok-free.app/";
+
 
   //Get OTP
   // static var loginUrl = baseUrl + 'user/sendOTP';
@@ -15,6 +17,22 @@ class AppUrl {
   static var otpverifyUrl = baseUrl + 'authentication/validate';
   //Auth Check Url
   static var authCheckUrl = baseUrl + 'authentication/authcheck';
+
+  //owner Registration Plot List Url
+  static var ownerRegistrationPlotListUrl = baseUrl + 'authentication/listOfPlots';
+
+  //owner Registration Plot List Url
+  static var addownerRequestUrl = baseUrl + 'authentication/registerOwner';
+
+
+
+  // get Plot Owner Profile Details Url
+  static var getPlotOwnerProfileDetailsUrl = baseUrl + 'users/profile';
+
+  // update Profile Details Url
+  static var updateProfileDetailsUrl = baseUrl + 'users/profile';
+
+
 
   //Scheduled Activities
   static var scheduledActivitiesUrl = baseUrl + 'scheduled-activities';
@@ -132,4 +150,12 @@ class AppUrl {
 
   //update Activity Scheduler Item Url
   static var updateActivitySchedulerItemUrl = baseUrl + 'activities/scheduler/';
+
+  //profile Url
+  static var profileUrl = baseUrl + 'users/profile';
+
+
+  //profile Url
+  static var editProfileUrl = baseUrl + 'users/profile';
+
 }

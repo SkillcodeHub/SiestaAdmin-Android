@@ -1,15 +1,20 @@
 import 'package:flutter/material.dart';
 
 import '../../../constants/string_res.dart';
+import '../../Auth/Authentication/LoginPage/login_screen.dart';
+import '../../SharedPreferences/sharePreference.dart';
 
-class PlotLogoutScreen extends StatefulWidget {
-  const PlotLogoutScreen({super.key});
+class PlotOwnerReportScreen extends StatefulWidget {
+  const PlotOwnerReportScreen({super.key});
 
   @override
-  State<PlotLogoutScreen> createState() => _PlotLogoutScreenState();
+  State<PlotOwnerReportScreen> createState() => _PlotOwnerReportScreenState();
 }
 
-class _PlotLogoutScreenState extends State<PlotLogoutScreen> {
+class _PlotOwnerReportScreenState extends State<PlotOwnerReportScreen> {
+
+    UserPreferences userPreference = UserPreferences();
+
   @override
   void initState() {
     super.initState();
@@ -65,28 +70,10 @@ class _PlotLogoutScreenState extends State<PlotLogoutScreen> {
   }
 
   void _handleLogout() {
-    // PackageInfo.fromPlatform().then((value) {
-    //   switch (value.packageName) {
-    //     case "com.axon.siesta_ams.admin":
-    //       Provider.of<AuthStateProvider>(context, listen: false)
-    //           .logoutUser()
-    //           .whenComplete(() {
-    //         Navigator.of(context).pushNamedAndRemoveUntil(
-    //             HomePageAdmin.routeName, (dynamic) => false);
-    //       });
-    //       break;
-    //     case "com.axon.siesta_ams.member":
-    //       Provider.of<AuthStateProvider>(context, listen: false)
-    //           .logoutUser()
-    //           .whenComplete(() {
-    //         Navigator.of(context).pushNamedAndRemoveUntil(
-    //             HomePageMember.routeName, (dynamic) => false);
-    //       });
-    //       break;
-    //   }
-    // }).catchError((e) {
-    //   print('Error during logout: $e');
-    // });
+                                              userPreference.logoutProcess();
+
+                        Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => LoginScreen()));
   }
 
   @override

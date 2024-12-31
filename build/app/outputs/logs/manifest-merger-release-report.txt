@@ -43,8 +43,8 @@ MERGED from [com.google.firebase:firebase-datatransport:18.1.8] /Users/dweeppate
 MERGED from [com.google.firebase:firebase-datatransport:18.1.8] /Users/dweeppatel/.gradle/caches/transforms-3/579d04947caed99bb8ee1cc7ddcb1e91/transformed/jetified-firebase-datatransport-18.1.8/AndroidManifest.xml:23:5-31:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:27:5-35:19
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:41:5-64:19
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:41:5-64:19
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:41:5-68:19
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:41:5-68:19
 MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/0972567b557c4107a4d635092fa35fbf/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
@@ -166,7 +166,7 @@ MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /User
 MERGED from [com.google.firebase:firebase-config-interop:16.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/a966f66063d8620c0dbbf3df990e515c/transformed/jetified-firebase-config-interop-16.0.0/AndroidManifest.xml:15:1-20:12
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/dweeppatel/.gradle/caches/transforms-3/50fa7d53dae685f21e9c934c6424b7fe/transformed/jetified-firebase-encoders-json-18.0.1/AndroidManifest.xml:15:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/5691f3e74026b1d222f61ddbe3ffe015/transformed/appcompat-1.4.2/AndroidManifest.xml:17:1-24:12
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:2:1-66:12
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:2:1-70:12
 MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/dweeppatel/.gradle/caches/transforms-3/289e67f11a26810b3945759fde81bad7/transformed/jetified-play-services-wallet-18.1.3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /Users/dweeppatel/.gradle/caches/transforms-3/5ad57fe9f3128089e729545d94b9eefe/transformed/jetified-play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
@@ -292,8 +292,8 @@ MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/dweeppate
 MERGED from [com.google.firebase:firebase-installations:17.2.0] /Users/dweeppatel/.gradle/caches/transforms-3/5b1168544095d2d89bd0e7c723d6616a/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:25:5-67
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:8:5-67
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:8:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:23:5-67
@@ -480,8 +480,8 @@ MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/dweeppate
 MERGED from [com.google.firebase:firebase-encoders-json:18.0.1] /Users/dweeppatel/.gradle/caches/transforms-3/50fa7d53dae685f21e9c934c6424b7fe/transformed/jetified-firebase-encoders-json-18.0.1/AndroidManifest.xml:18:5-20:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/5691f3e74026b1d222f61ddbe3ffe015/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/5691f3e74026b1d222f61ddbe3ffe015/transformed/appcompat-1.4.2/AndroidManifest.xml:20:5-22:41
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:6:5-44
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:6:5-44
 MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/dweeppatel/.gradle/caches/transforms-3/289e67f11a26810b3945759fde81bad7/transformed/jetified-play-services-wallet-18.1.3/AndroidManifest.xml:20:5-44
@@ -938,8 +938,8 @@ queries
 ADDED from [:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-15:15
 MERGED from [com.github.droibit:customtabslauncher:1.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/b350fc81be354b69207d149561e50b80/transformed/jetified-customtabslauncher-1.6.0/AndroidManifest.xml:9:5-13:15
 MERGED from [com.github.droibit:customtabslauncher:1.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/b350fc81be354b69207d149561e50b80/transformed/jetified-customtabslauncher-1.6.0/AndroidManifest.xml:9:5-13:15
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:10:5-39:15
-MERGED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:10:5-39:15
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:10:5-39:15
+MERGED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:10:5-39:15
 intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:*/*
 ADDED from [:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-14:18
 action#android.intent.action.GET_CONTENT
@@ -1139,59 +1139,67 @@ ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users
 	android:name
 		ADDED from [com.google.android.datatransport:transport-backend-cct:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/d22e55adbb9617b08b2fd36a2613c131/transformed/jetified-transport-backend-cct-3.1.9/AndroidManifest.xml:32:17-94
 intent#action:name:android.intent.action.VIEW+data:mimeType:*/*+data:scheme:*
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:11:9-17:18
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:11:9-17:18
 action#android.intent.action.VIEW
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:13-65
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:12:13-65
 	android:name
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:21-62
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:12:21-62
 intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:pay+data:mimeType:*/*+data:scheme:upi
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:18:9-27:18
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:18:9-27:18
 category#android.intent.category.BROWSABLE
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:21:13-74
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:21:13-74
 	android:name
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:21:23-71
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:21:23-71
 intent#action:name:android.intent.action.MAIN
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:28:9-30:18
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:28:9-30:18
 intent#action:name:android.intent.action.SEND+data:mimeType:*/*
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:31:9-35:18
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:31:9-35:18
 action#android.intent.action.SEND
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:32:13-65
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:32:13-65
 	android:name
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:32:21-62
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:32:21-62
 intent#action:name:rzp.device_token.share
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:36:9-38:18
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:36:9-38:18
 action#rzp.device_token.share
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:13-61
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:37:13-61
 	android:name
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:21-58
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:37:21-58
 receiver#com.razorpay.RzpTokenReceiver
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:42:9-49:20
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:42:9-49:20
 	android:exported
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:44:13-36
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:44:13-36
 	tools:ignore
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:45:13-44
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:45:13-44
 	android:name
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:43:13-57
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:43:13-57
 intent-filter#action:name:rzp.device_token.share
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:46:13-48:29
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:46:13-48:29
 activity#com.razorpay.CheckoutActivity
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:51:9-59:20
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:51:9-59:20
 	android:exported
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:54:13-37
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:54:13-37
 	android:configChanges
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:53:13-83
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:53:13-83
 	android:theme
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:55:13-49
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:55:13-49
 	android:name
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:52:13-57
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:52:13-57
 intent-filter#action:name:android.intent.action.MAIN
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:56:13-58:29
-meta-data#com.razorpay.plugin.googlepay_all
-ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:61:9-63:58
-	android:value
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:63:13-55
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:56:13-58:29
+activity#com.razorpay.MagicXActivity
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:60:9-63:75
+	android:exported
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:62:13-37
+	android:theme
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:63:13-72
 	android:name
-		ADDED from [com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:62:13-61
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:61:13-55
+meta-data#com.razorpay.plugin.googlepay_all
+ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:65:9-67:58
+	android:value
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:67:13-55
+	android:name
+		ADDED from [com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:66:13-61
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents

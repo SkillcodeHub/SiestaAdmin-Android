@@ -29,7 +29,7 @@ class AddScheduledTaskManuallyViewModel with ChangeNotifier {
     setLoading(true);
     await _myRepo.addScheduledTaskManuallyapi(token, data).then((value) {
       if (value['status'] == true) {
-        Navigator.pop(context);
+        Navigator.pop(context,true);
         setLoading(false);
 
         if (kDebugMode) {
@@ -66,7 +66,7 @@ class AddScheduledTaskManuallyViewModel with ChangeNotifier {
                           fontSize: 14.sp, fontWeight: FontWeight.bold),
                     ),
                     onPressed: () {
-                      Navigator.pop(context);
+                      Navigator.pop(context,true);
                     },
                   ),
                 ),

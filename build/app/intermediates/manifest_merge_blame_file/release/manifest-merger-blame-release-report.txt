@@ -1,8 +1,8 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.siestaadmin.dot2dot"
-4    android:versionCode="4"
-5    android:versionName="1.0.4" >
+4    android:versionCode="7"
+5    android:versionName="1.0.7" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="29"
@@ -106,10 +106,10 @@
 51-->[com.github.droibit:customtabslauncher:1.6.0] /Users/dweeppatel/.gradle/caches/transforms-3/b350fc81be354b69207d149561e50b80/transformed/jetified-customtabslauncher-1.6.0/AndroidManifest.xml:11:21-87
 52        </intent>
 53        <intent>
-53-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:11:9-17:18
+53-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:11:9-17:18
 54            <action android:name="android.intent.action.VIEW" />
-54-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:13-65
-54-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:21-62
+54-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:12:13-65
+54-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:12:21-62
 55
 56            <data
 56-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-44
@@ -118,14 +118,14 @@
 58                android:scheme="*" />
 59        </intent>
 60        <intent>
-60-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:18:9-27:18
+60-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:18:9-27:18
 61            <action android:name="android.intent.action.VIEW" />
-61-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:13-65
-61-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:12:21-62
+61-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:12:13-65
+61-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:12:21-62
 62
 63            <category android:name="android.intent.category.BROWSABLE" />
-63-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:21:13-74
-63-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:21:23-71
+63-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:21:13-74
+63-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:21:23-71
 64
 65            <data
 65-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-44
@@ -135,26 +135,26 @@
 68                android:scheme="upi" />
 69        </intent>
 70        <intent>
-70-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:28:9-30:18
+70-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:28:9-30:18
 71            <action android:name="android.intent.action.MAIN" />
 71-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:17-68
 71-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:25-66
 72        </intent>
 73        <intent>
-73-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:31:9-35:18
+73-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:31:9-35:18
 74            <action android:name="android.intent.action.SEND" />
-74-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:32:13-65
-74-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:32:21-62
+74-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:32:13-65
+74-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:32:21-62
 75
 76            <data android:mimeType="*/*" />
 76-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-44
 76-->[:file_picker] /Users/dweeppatel/Documents/Siesta-android/build/file_picker/intermediates/merged_manifest/release/AndroidManifest.xml:13:19-41
 77        </intent>
 78        <intent>
-78-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:36:9-38:18
+78-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:36:9-38:18
 79            <action android:name="rzp.device_token.share" />
-79-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:13-61
-79-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:21-58
+79-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:37:13-61
+79-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:37:21-58
 80        </intent>
 81    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
 82    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
@@ -583,429 +583,437 @@
 310        </service>
 311
 312        <receiver
-312-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:42:9-49:20
+312-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:42:9-49:20
 313            android:name="com.razorpay.RzpTokenReceiver"
-313-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:43:13-57
+313-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:43:13-57
 314            android:exported="true" >
-314-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:44:13-36
+314-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:44:13-36
 315            <intent-filter>
-315-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:46:13-48:29
+315-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:46:13-48:29
 316                <action android:name="rzp.device_token.share" />
-316-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:13-61
-316-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:37:21-58
+316-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:37:13-61
+316-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:37:21-58
 317            </intent-filter>
 318        </receiver>
 319
 320        <activity
-320-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:51:9-59:20
+320-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:51:9-59:20
 321            android:name="com.razorpay.CheckoutActivity"
-321-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:52:13-57
+321-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:52:13-57
 322            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
-322-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:53:13-83
+322-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:53:13-83
 323            android:exported="false"
-323-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:54:13-37
+323-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:54:13-37
 324            android:theme="@style/CheckoutTheme" >
-324-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:55:13-49
+324-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:55:13-49
 325            <intent-filter>
-325-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:56:13-58:29
+325-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:56:13-58:29
 326                <action android:name="android.intent.action.MAIN" />
 326-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:17-68
 326-->/Users/dweeppatel/Documents/Siesta-android/android/app/src/main/AndroidManifest.xml:54:25-66
 327            </intent-filter>
 328        </activity>
-329
-330        <meta-data
-330-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:61:9-63:58
-331            android:name="com.razorpay.plugin.googlepay_all"
-331-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:62:13-61
-332            android:value="com.razorpay.RzpGpayMerged" />
-332-->[com.razorpay:standard-core:1.6.41] /Users/dweeppatel/.gradle/caches/transforms-3/6ed296eee6e1c388ff0f33527e441e74/transformed/jetified-standard-core-1.6.41/AndroidManifest.xml:63:13-55
+329        <activity
+329-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:60:9-63:75
+330            android:name="com.razorpay.MagicXActivity"
+330-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:61:13-55
+331            android:exported="false"
+331-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:62:13-37
+332            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+332-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:63:13-72
 333
-334        <activity
-334-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:23:9-27:75
-335            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-335-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:24:13-93
-336            android:excludeFromRecents="true"
-336-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:25:13-46
-337            android:exported="false"
-337-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:26:13-37
-338            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-338-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:27:13-72
-339        <!--
-340            Service handling Google Sign-In user revocation. For apps that do not integrate with
-341            Google Sign-In, this service will never be started.
-342        -->
-343        <service
-343-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:33:9-37:51
-344            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-344-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:34:13-89
-345            android:exported="true"
-345-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:35:13-36
-346            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-346-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:36:13-107
-347            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
-347-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:37:13-48
-348        <uses-library
-348-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-349            android:name="org.apache.http.legacy"
-349-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-350            android:required="false" />
-350-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-351
-352        <activity
-352-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
-353            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-353-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
-354            android:exported="false"
-354-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
-355            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-355-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
-356
-357        <provider
-357-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
-358            android:name="com.google.firebase.provider.FirebaseInitProvider"
-358-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
-359            android:authorities="com.siestaadmin.dot2dot.firebaseinitprovider"
-359-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
-360            android:directBootAware="true"
-360-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
-361            android:exported="false"
-361-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
-362            android:initOrder="100" />
-362-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
-363
-364        <receiver
-364-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
-365            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-365-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
-366            android:enabled="true"
-366-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
-367            android:exported="false" >
-367-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
-368        </receiver>
-369
-370        <service
-370-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
-371            android:name="com.google.android.gms.measurement.AppMeasurementService"
-371-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
-372            android:enabled="true"
-372-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
-373            android:exported="false" />
-373-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+334        <meta-data
+334-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:65:9-67:58
+335            android:name="com.razorpay.plugin.googlepay_all"
+335-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:66:13-61
+336            android:value="com.razorpay.RzpGpayMerged" />
+336-->[com.razorpay:standard-core:1.6.44] /Users/dweeppatel/.gradle/caches/transforms-3/4c95824d3f8ce447f4a58451761b56d5/transformed/jetified-standard-core-1.6.44/AndroidManifest.xml:67:13-55
+337
+338        <activity
+338-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:23:9-27:75
+339            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+339-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:24:13-93
+340            android:excludeFromRecents="true"
+340-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:25:13-46
+341            android:exported="false"
+341-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:26:13-37
+342            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+342-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:27:13-72
+343        <!--
+344            Service handling Google Sign-In user revocation. For apps that do not integrate with
+345            Google Sign-In, this service will never be started.
+346        -->
+347        <service
+347-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:33:9-37:51
+348            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+348-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:34:13-89
+349            android:exported="true"
+349-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:35:13-36
+350            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+350-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:36:13-107
+351            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+351-->[com.google.android.gms:play-services-auth:21.1.0] /Users/dweeppatel/.gradle/caches/transforms-3/6cb3d8275adafc0eb0dffc9e2ba6cebf/transformed/jetified-play-services-auth-21.1.0/AndroidManifest.xml:37:13-48
+352        <uses-library
+352-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+353            android:name="org.apache.http.legacy"
+353-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+354            android:required="false" />
+354-->[com.google.android.gms:play-services-maps:17.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/77eb0e9986c272d7b7d33f626c670349/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+355
+356        <activity
+356-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+357            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+357-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+358            android:exported="false"
+358-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+359            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+359-->[com.google.android.gms:play-services-base:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/10f168f237d7ca3a81c1e1d19e3952f6/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+360
+361        <provider
+361-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+362            android:name="com.google.firebase.provider.FirebaseInitProvider"
+362-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+363            android:authorities="com.siestaadmin.dot2dot.firebaseinitprovider"
+363-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+364            android:directBootAware="true"
+364-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+365            android:exported="false"
+365-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+366            android:initOrder="100" />
+366-->[com.google.firebase:firebase-common:20.4.2] /Users/dweeppatel/.gradle/caches/transforms-3/ad49c63c0378212b621d992c1ae8938c/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+367
+368        <receiver
+368-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:29:9-33:20
+369            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+369-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:30:13-85
+370            android:enabled="true"
+370-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:31:13-35
+371            android:exported="false" >
+371-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:32:13-37
+372        </receiver>
+373
 374        <service
-374-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
-375            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-375-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+374-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:35:9-38:40
+375            android:name="com.google.android.gms.measurement.AppMeasurementService"
+375-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:36:13-84
 376            android:enabled="true"
-376-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
-377            android:exported="false"
-377-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
-378            android:permission="android.permission.BIND_JOB_SERVICE" />
-378-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
-379
-380        <uses-library
-380-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
-381            android:name="android.ext.adservices"
-381-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
-382            android:required="false" />
-382-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+376-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:37:13-35
+377            android:exported="false" />
+377-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:38:13-37
+378        <service
+378-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:39:9-43:72
+379            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+379-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:40:13-87
+380            android:enabled="true"
+380-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:41:13-35
+381            android:exported="false"
+381-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:42:13-37
+382            android:permission="android.permission.BIND_JOB_SERVICE" />
+382-->[com.google.android.gms:play-services-measurement:21.5.0] /Users/dweeppatel/.gradle/caches/transforms-3/fa9c071d464ca4cb00d6e7a0604155e8/transformed/jetified-play-services-measurement-21.5.0/AndroidManifest.xml:43:13-69
 383
-384        <meta-data
-384-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
-385            android:name="com.google.android.gms.version"
-385-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
-386            android:value="@integer/google_play_services_version" />
-386-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+384        <uses-library
+384-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+385            android:name="android.ext.adservices"
+385-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+386            android:required="false" />
+386-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/dweeppatel/.gradle/caches/transforms-3/0bcbffaccb6c6d348703605fdea089b8/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
 387
-388        <provider
-388-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
-389            android:name="androidx.startup.InitializationProvider"
-389-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
-390            android:authorities="com.siestaadmin.dot2dot.androidx-startup"
-390-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
-391            android:exported="false" >
-391-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
-392            <meta-data
-392-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
-393                android:name="androidx.work.WorkManagerInitializer"
-393-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
-394                android:value="androidx.startup" />
-394-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
-395            <meta-data
-395-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
-396                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-396-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
-397                android:value="androidx.startup" />
-397-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
-398            <meta-data
-398-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-399                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-399-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-400                android:value="androidx.startup" />
-400-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-401            <meta-data
-401-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-402                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-402-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-403                android:value="androidx.startup" />
-403-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-404        </provider>
-405
-406        <service
-406-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
-407            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-407-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
-408            android:directBootAware="false"
-408-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
-409            android:enabled="@bool/enable_system_alarm_service_default"
-409-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
-410            android:exported="false" />
-410-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
-411        <service
-411-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
-412            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-412-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
-413            android:directBootAware="false"
-413-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
-414            android:enabled="@bool/enable_system_job_service_default"
-414-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
-415            android:exported="true"
-415-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
-416            android:permission="android.permission.BIND_JOB_SERVICE" />
-416-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
-417        <service
-417-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
-418            android:name="androidx.work.impl.foreground.SystemForegroundService"
-418-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
-419            android:directBootAware="false"
-419-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
-420            android:enabled="@bool/enable_system_foreground_service_default"
-420-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
-421            android:exported="false" />
-421-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
-422
-423        <receiver
-423-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
-424            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-424-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
-425            android:directBootAware="false"
-425-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
-426            android:enabled="true"
-426-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
-427            android:exported="false" />
-427-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
-428        <receiver
-428-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
-429            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-429-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
-430            android:directBootAware="false"
-430-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
-431            android:enabled="false"
-431-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
-432            android:exported="false" >
-432-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
-433            <intent-filter>
-433-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
-434                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-434-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
-434-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
-435                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-435-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
-435-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
-436            </intent-filter>
-437        </receiver>
-438        <receiver
-438-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
-439            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-439-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
-440            android:directBootAware="false"
-440-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
-441            android:enabled="false"
-441-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
-442            android:exported="false" >
-442-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
-443            <intent-filter>
-443-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
-444                <action android:name="android.intent.action.BATTERY_OKAY" />
-444-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
-444-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
-445                <action android:name="android.intent.action.BATTERY_LOW" />
-445-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
-445-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
-446            </intent-filter>
-447        </receiver>
-448        <receiver
-448-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
-449            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-449-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
-450            android:directBootAware="false"
-450-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
-451            android:enabled="false"
-451-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
-452            android:exported="false" >
-452-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
-453            <intent-filter>
-453-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
-454                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-454-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
-454-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
-455                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-455-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
-455-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
-456            </intent-filter>
-457        </receiver>
-458        <receiver
-458-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
-459            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-459-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
-460            android:directBootAware="false"
-460-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
-461            android:enabled="false"
-461-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
-462            android:exported="false" >
-462-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
-463            <intent-filter>
-463-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
-464                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-464-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
-464-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
-465            </intent-filter>
-466        </receiver>
-467        <receiver
-467-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
-468            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-468-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
-469            android:directBootAware="false"
-469-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
-470            android:enabled="false"
-470-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
-471            android:exported="false" >
-471-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
-472            <intent-filter>
-472-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
-473                <action android:name="android.intent.action.BOOT_COMPLETED" />
-473-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-79
-473-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-76
-474                <action android:name="android.intent.action.TIME_SET" />
-474-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
-474-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
-475                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-475-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
-475-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
-476            </intent-filter>
-477        </receiver>
-478        <receiver
-478-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
-479            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-479-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
-480            android:directBootAware="false"
-480-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
-481            android:enabled="@bool/enable_system_alarm_service_default"
-481-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
-482            android:exported="false" >
-482-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
-483            <intent-filter>
-483-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
-484                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-484-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
-484-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
-485            </intent-filter>
-486        </receiver>
-487        <receiver
-487-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
-488            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-488-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
-489            android:directBootAware="false"
-489-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
-490            android:enabled="true"
-490-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
-491            android:exported="true"
-491-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
-492            android:permission="android.permission.DUMP" >
-492-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
-493            <intent-filter>
-493-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
-494                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-494-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
-494-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
-495            </intent-filter>
-496        </receiver>
-497
-498        <uses-library
-498-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
-499            android:name="androidx.window.extensions"
-499-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
-500            android:required="false" />
-500-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
-501        <uses-library
-501-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
-502            android:name="androidx.window.sidecar"
-502-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
-503            android:required="false" />
-503-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
-504
-505        <receiver
-505-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-506            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-506-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-507            android:directBootAware="false"
-507-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-508            android:enabled="true"
-508-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-509            android:exported="true"
-509-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-510            android:permission="android.permission.DUMP" >
-510-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-511            <intent-filter>
-511-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-512                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-512-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-512-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-513            </intent-filter>
-514            <intent-filter>
-514-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-515                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-515-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-515-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-516            </intent-filter>
-517            <intent-filter>
-517-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-518                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-518-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-518-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-519            </intent-filter>
-520            <intent-filter>
-520-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-521                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-521-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-521-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-522            </intent-filter>
-523        </receiver>
-524
-525        <service
-525-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
-526            android:name="androidx.room.MultiInstanceInvalidationService"
-526-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
-527            android:directBootAware="true"
-527-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
-528            android:exported="false" />
-528-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+388        <meta-data
+388-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+389            android:name="com.google.android.gms.version"
+389-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+390            android:value="@integer/google_play_services_version" />
+390-->[com.google.android.gms:play-services-basement:18.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/d2876a4006670e6dd9dc252b07924311/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+391
+392        <provider
+392-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+393            android:name="androidx.startup.InitializationProvider"
+393-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+394            android:authorities="com.siestaadmin.dot2dot.androidx-startup"
+394-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+395            android:exported="false" >
+395-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+396            <meta-data
+396-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+397                android:name="androidx.work.WorkManagerInitializer"
+397-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+398                android:value="androidx.startup" />
+398-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+399            <meta-data
+399-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+400                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+400-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+401                android:value="androidx.startup" />
+401-->[androidx.emoji2:emoji2:1.0.0] /Users/dweeppatel/.gradle/caches/transforms-3/42ef65726cf4e24bb8dba131de7c7a43/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+402            <meta-data
+402-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+403                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+403-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+404                android:value="androidx.startup" />
+404-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/dweeppatel/.gradle/caches/transforms-3/3b639024d302ee164bb4e0af9a436618/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+405            <meta-data
+405-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+406                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+406-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+407                android:value="androidx.startup" />
+407-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+408        </provider>
+409
+410        <service
+410-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+411            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+411-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+412            android:directBootAware="false"
+412-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+413            android:enabled="@bool/enable_system_alarm_service_default"
+413-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+414            android:exported="false" />
+414-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+415        <service
+415-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+416            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+416-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+417            android:directBootAware="false"
+417-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+418            android:enabled="@bool/enable_system_job_service_default"
+418-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+419            android:exported="true"
+419-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+420            android:permission="android.permission.BIND_JOB_SERVICE" />
+420-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+421        <service
+421-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+422            android:name="androidx.work.impl.foreground.SystemForegroundService"
+422-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+423            android:directBootAware="false"
+423-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+424            android:enabled="@bool/enable_system_foreground_service_default"
+424-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+425            android:exported="false" />
+425-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+426
+427        <receiver
+427-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+428            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+428-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+429            android:directBootAware="false"
+429-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+430            android:enabled="true"
+430-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+431            android:exported="false" />
+431-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+432        <receiver
+432-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+433            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+433-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+434            android:directBootAware="false"
+434-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+435            android:enabled="false"
+435-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+436            android:exported="false" >
+436-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+437            <intent-filter>
+437-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+438                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+438-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+438-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+439                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+439-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+439-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+440            </intent-filter>
+441        </receiver>
+442        <receiver
+442-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+443            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+443-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+444            android:directBootAware="false"
+444-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+445            android:enabled="false"
+445-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+446            android:exported="false" >
+446-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+447            <intent-filter>
+447-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+448                <action android:name="android.intent.action.BATTERY_OKAY" />
+448-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+448-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+449                <action android:name="android.intent.action.BATTERY_LOW" />
+449-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+449-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+450            </intent-filter>
+451        </receiver>
+452        <receiver
+452-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+453            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+453-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+454            android:directBootAware="false"
+454-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+455            android:enabled="false"
+455-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+456            android:exported="false" >
+456-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+457            <intent-filter>
+457-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+458                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+458-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+458-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+459                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+459-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+459-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+460            </intent-filter>
+461        </receiver>
+462        <receiver
+462-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+463            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+463-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+464            android:directBootAware="false"
+464-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+465            android:enabled="false"
+465-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+466            android:exported="false" >
+466-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+467            <intent-filter>
+467-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+468                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+468-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+468-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+469            </intent-filter>
+470        </receiver>
+471        <receiver
+471-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+472            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+472-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+473            android:directBootAware="false"
+473-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+474            android:enabled="false"
+474-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+475            android:exported="false" >
+475-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+476            <intent-filter>
+476-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+477                <action android:name="android.intent.action.BOOT_COMPLETED" />
+477-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-79
+477-->[:flutter_local_notifications] /Users/dweeppatel/Documents/Siesta-android/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-76
+478                <action android:name="android.intent.action.TIME_SET" />
+478-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+478-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+479                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+479-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+479-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+480            </intent-filter>
+481        </receiver>
+482        <receiver
+482-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+483            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+483-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+484            android:directBootAware="false"
+484-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+485            android:enabled="@bool/enable_system_alarm_service_default"
+485-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+486            android:exported="false" >
+486-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+487            <intent-filter>
+487-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+488                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+488-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+488-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+489            </intent-filter>
+490        </receiver>
+491        <receiver
+491-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+492            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+492-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+493            android:directBootAware="false"
+493-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+494            android:enabled="true"
+494-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+495            android:exported="true"
+495-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+496            android:permission="android.permission.DUMP" >
+496-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+497            <intent-filter>
+497-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+498                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+498-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+498-->[androidx.work:work-runtime:2.7.1] /Users/dweeppatel/.gradle/caches/transforms-3/aa9b53e598fa0fd8ce6700bcb9b1a3a2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+499            </intent-filter>
+500        </receiver>
+501
+502        <uses-library
+502-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+503            android:name="androidx.window.extensions"
+503-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+504            android:required="false" />
+504-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+505        <uses-library
+505-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+506            android:name="androidx.window.sidecar"
+506-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+507            android:required="false" />
+507-->[androidx.window:window:1.0.0-beta04] /Users/dweeppatel/.gradle/caches/transforms-3/edb2c75dfd9b6ec512b74a94233bbcf6/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+508
+509        <receiver
+509-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+510            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+510-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+511            android:directBootAware="false"
+511-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+512            android:enabled="true"
+512-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+513            android:exported="true"
+513-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+514            android:permission="android.permission.DUMP" >
+514-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+515            <intent-filter>
+515-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+516                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+516-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+516-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+517            </intent-filter>
+518            <intent-filter>
+518-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+519                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+519-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+519-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+520            </intent-filter>
+521            <intent-filter>
+521-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+522                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+522-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+522-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+523            </intent-filter>
+524            <intent-filter>
+524-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+525                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+525-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+525-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/dweeppatel/.gradle/caches/transforms-3/6d49e288eee0fd44e28086e273deb618/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+526            </intent-filter>
+527        </receiver>
+528
 529        <service
-529-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
-530            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-530-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
-531            android:exported="false"
-531-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
-532            android:permission="android.permission.BIND_JOB_SERVICE" >
-532-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
-533        </service>
-534
-535        <receiver
-535-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
-536            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-536-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
-537            android:exported="false" />
-537-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
-538    </application>
-539
-540</manifest>
+529-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+530            android:name="androidx.room.MultiInstanceInvalidationService"
+530-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+531            android:directBootAware="true"
+531-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+532            android:exported="false" />
+532-->[androidx.room:room-runtime:2.2.5] /Users/dweeppatel/.gradle/caches/transforms-3/3536f2656c380aad3ed93f29ce32f7bf/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+533        <service
+533-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:26:9-30:19
+534            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+534-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:27:13-117
+535            android:exported="false"
+535-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:28:13-37
+536            android:permission="android.permission.BIND_JOB_SERVICE" >
+536-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:29:13-69
+537        </service>
+538
+539        <receiver
+539-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:32:9-34:40
+540            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+540-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:33:13-132
+541            android:exported="false" />
+541-->[com.google.android.datatransport:transport-runtime:3.1.9] /Users/dweeppatel/.gradle/caches/transforms-3/0b3e550dbf84ed4f2541064179776695/transformed/jetified-transport-runtime-3.1.9/AndroidManifest.xml:34:13-37
+542    </application>
+543
+544</manifest>

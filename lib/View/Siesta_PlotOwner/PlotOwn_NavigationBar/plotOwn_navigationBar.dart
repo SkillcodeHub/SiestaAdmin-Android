@@ -8,7 +8,7 @@ import '../Plot_Logout/plotLogoutScreen.dart';
 import '../Plot_Profile/plotProfileScreen.dart';
 
 class PlotOwn_NavigationBar extends StatefulWidget {
-    final int indexNumber;
+  final int indexNumber;
 
   const PlotOwn_NavigationBar({super.key, required this.indexNumber});
 
@@ -46,13 +46,15 @@ class _PlotOwn_NavigationBarState extends State<PlotOwn_NavigationBar> {
           final List<Widget> user = [
             PlotHomeScreen(),
             DashboardProfile(),
-            PlotLogoutScreen(),
+            PlotOwnerReportScreen(),
+
+            // PlotLogoutScreen(),
           ];
 
           void _onItemTapped(int index) {
             // if ((canViewNotfRequests || index != 2) &&
             //     (canViewReport || index != 1)) {
-              selectedIndexProvider.value = index;
+            selectedIndexProvider.value = index;
             // }
           }
 
@@ -62,37 +64,31 @@ class _PlotOwn_NavigationBarState extends State<PlotOwn_NavigationBar> {
                 bottomNavigationBar: BottomNavigationBar(
                   items: <BottomNavigationBarItem>[
                     BottomNavigationBarItem(
-                      icon: Icon(Icons.home, size: iconSize, color: Colors.black),
+                      icon:
+                          Icon(Icons.home, size: iconSize, color: Colors.black),
                       activeIcon: Icon(Icons.home,
                           size: iconSize, color: appSecondaryColor),
                       label: AppString.get(context).homePage(),
                     ),
+                  
                     BottomNavigationBarItem(
                       icon: Icon(Icons.account_box_rounded,
-                          size: iconSize,
-                          color: 
-                          // !canViewReport ? Colors.grey : 
-                          
-                          
-                          Colors.black),
+                          size: iconSize, color: Colors.black),
                       activeIcon: Icon(Icons.account_box_rounded,
                           size: iconSize, color: appSecondaryColor),
                       label: AppString.get(context).profile(),
                     ),
-                    BottomNavigationBarItem(
+                 
+                   BottomNavigationBarItem(
                       icon: Icon(Icons.power_settings_new,
-                          size: iconSize,
-                          color:
-                              // !canViewNotfRequests ? 
-                              
-                              // Colors.grey :
-                              
-                               Colors.black),
+                          size: iconSize, color: Colors.black),
                       activeIcon: Icon(Icons.power_settings_new,
                           size: iconSize, color: appSecondaryColor),
                       label: AppString.get(context).logout(),
                     ),
-          
+                   
+                   
+                 
                   ],
                   selectedItemColor:
                       appSecondaryColor, // Set the selected item color to orange
@@ -104,8 +100,10 @@ class _PlotOwn_NavigationBarState extends State<PlotOwn_NavigationBar> {
                   elevation: 12,
                   unselectedLabelStyle: TextStyle(color: appPrimaryColor),
                   selectedLabelStyle: TextStyle(
-                      color: appSecondaryColor), // Set selected label text color
+                      color:
+                          appSecondaryColor), // Set selected label text color
                 )),
+                
           );
         },
       ),

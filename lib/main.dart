@@ -1,13 +1,8 @@
-import 'package:equatable/equatable.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_crashlytics/firebase_crashlytics.dart';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:intl/date_symbol_data_file.dart';
 import 'package:provider/provider.dart';
 import 'package:siestaamsapp/Provider/app_language_provider.dart';
 import 'package:siestaamsapp/Res/colors.dart';
@@ -61,9 +56,14 @@ import 'package:siestaamsapp/View_Model/Report_View_Model/priorityTask_view_mode
 import 'package:siestaamsapp/View_Model/Report_View_Model/taskStage_view_model.dart';
 import 'package:siestaamsapp/View_Model/Request_View_Model/notificationRequest_view_model.dart';
 import 'package:sizer/sizer.dart';
-
 import 'Utils/Widgets/app_theme.dart';
-import 'View/Siesta_Admin/More/Modules/Activities/language.dart';
+import 'View_Model/Auth_View_Model/OwnerRegistration_View_Model/addOwnerRequest_view_model.dart';
+import 'View_Model/Auth_View_Model/OwnerRegistration_View_Model/ownerRegistrationPlotList_view_model.dart';
+import 'View_Model/PlotOwner_View_Model/getPlotOwnerActivity_schedulersList_view_model.dart';
+import 'View_Model/PlotOwner_View_Model/getPlotOwnerAssetsList_view_model.dart';
+import 'View_Model/PlotOwner_View_Model/getPlotOwnerProfile_view_model.dart';
+import 'View_Model/PlotOwner_View_Model/plotOwnerScheduledActivities_view_model.dart';
+import 'View_Model/PlotOwner_View_Model/updateProfileDetails_view_model.dart';
 
 class ContainerSizeNotifier extends ChangeNotifier {
   double width = 500;
@@ -114,7 +114,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MultiProvider(
         providers: [
-                  // ChangeNotifierProvider(create: (context) => LanguageProvider()),
+          // ChangeNotifierProvider(create: (context) => LanguageProvider()),
 
           ChangeNotifierProvider(create: (_) => DoctorNameProvider()),
           ChangeNotifierProvider(create: (_) => ContainerSizeNotifier()),
@@ -146,6 +146,11 @@ class MyApp extends StatelessWidget {
               create: (_) => AddScheduledTaskManuallyViewModel()),
           ChangeNotifierProvider(
               create: (_) => AddNewActivitySchedulersViewModel()),
+
+          ChangeNotifierProvider(create: (_) => AddOwnerRequestViewModel()),
+                    ChangeNotifierProvider(create: (_) => UpdateProfileDetailsViewModel()),
+
+
           ChangeNotifierProvider<AuthStateProvider>(
             create: (_) => AuthStateProvider(
               flutterSecureStorage: FlutterSecureStorage(),
@@ -213,6 +218,17 @@ class MyApp extends StatelessWidget {
           ChangeNotifierProvider<
                   SchedulerPendingActivityItemListViewmodel>.value(
               value: SchedulerPendingActivityItemListViewmodel()),
+          ChangeNotifierProvider<OwnerRegistrationPlotListViewmodel>.value(
+              value: OwnerRegistrationPlotListViewmodel()),
+          ChangeNotifierProvider<PlotOwnerScheduledActivitiesViewmodel>.value(
+              value: PlotOwnerScheduledActivitiesViewmodel()),
+          ChangeNotifierProvider<
+                  GetPlotOwnerActivitySchedulersListViewmodel>.value(
+              value: GetPlotOwnerActivitySchedulersListViewmodel()),
+          ChangeNotifierProvider<GetPlotOwnerAssetsListViewmodel>.value(
+              value: GetPlotOwnerAssetsListViewmodel()),
+          ChangeNotifierProvider<GetPlotOwnerProfileViewmodel>.value(
+              value: GetPlotOwnerProfileViewmodel()),
         ],
         child: LayoutBuilder(builder: (context, constraints) {
           bool isTablet = constraints.maxWidth > 600;
